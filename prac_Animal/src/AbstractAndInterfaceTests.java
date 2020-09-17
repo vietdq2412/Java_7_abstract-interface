@@ -1,7 +1,7 @@
 import animal.Animal;
 import animal.Chicken;
 import animal.Tiger;
-
+import fruit.*;
 
 
 public class AbstractAndInterfaceTests {
@@ -17,6 +17,9 @@ public class AbstractAndInterfaceTests {
 
         Apple tao = new Apple();
         System.out.println(tao.howToEat());
+
+        Orange cam = new Orange();
+        System.out.println(cam.howToEat());
 
     }
 }
